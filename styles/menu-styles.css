@@ -1,8 +1,9 @@
 header {
     height: 100px;
     width: 100%;
-    background-color: red;
+    background-color: white;
     display: flex;
+    font-family: sans-serif;
 }
 
 
@@ -15,7 +16,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: gray;
     font-size: 2em;
     
 }
