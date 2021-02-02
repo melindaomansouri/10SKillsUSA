@@ -1,3 +1,9 @@
 body {
     margin: 0px;
 }
+
+section {
+    height: 500px;
+    color: aliceblue;
+    width: 100%;
+}
