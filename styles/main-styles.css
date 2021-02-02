@@ -9,7 +9,7 @@ section {
 }
 
 #first-banner {
-    height: 1px;
+    height: 400px;
 }
 
 #videoBackground {
@@ -31,4 +31,34 @@ section {
     margin: 100px;
     padding: 30px;
     font-size: 2em;
+    font-family: sans-serif;
+}
+
+#second-banner {
+    position: relative;
+    color: gray;
+
+}
+
+#second-banner > .second-banner-text > .text-wrapper {
+    width: 50%;
+    height: 500px;  
+    border: 15px solid white;
+    float: left;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+#second-banner > .second-banner-text > .text-wrapper > h2{
+    font-size: 2em;
+}
+
+#second-banner > .second-banner-image {
+    background-image: url("../media/pier68-boats-cropped.jpg");
+    width: 50%;
+    height:500px;
+    border: 15px solid white;
+    float: right;
+    box-sizing: border-box;
 }
