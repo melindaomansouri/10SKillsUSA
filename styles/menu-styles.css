@@ -4,6 +4,8 @@ header {
     background-color: white;
     display: flex;
     font-family: sans-serif;
+    position: fixed;
+    z-index: 100;
 }
 
 
@@ -21,19 +23,47 @@ nav a {
     
 }
 
+.time-wrapper {
+    height: 100%;
+    width: 30%;
+}
+
 #logo-wrapper {
     width: 350px;
     height: 100%;
+    position: relative;
+}
+
+#logo-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 #sub-pontoon-wrapper {
     display: none;
     width: 100%;
-    height: 250px;
+    height: 275px;
     background-color: aliceblue;
     position: absolute;
     top: 100px;
     left: 0;
+    z-index: 10;
+}
+
+.image-text-wrapper {
+    padding: 30px;
+    text-align: center;
+}
+.image-text-wrapper img {
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
+
+#sub-image-wrapper {
+    display: flex;
 }
 
 #pontoon-wrapper, #fishing-wrapper, #kayak-wrapper {
@@ -42,7 +72,7 @@ nav a {
 }
 
 #pontoon-wrapper:hover #sub-pontoon-wrapper {
-    animation: slide-in .5 forwards;
+    /* animation: slide-in .5 forwards; */
     display: block;
 
 }
@@ -58,3 +88,4 @@ nav a {
         opacity: 1;
     }
 }
+
