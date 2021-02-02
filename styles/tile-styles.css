@@ -1,4 +1,75 @@
 #boat-wrapper {
     background-color: aquamarine;
+}
 
+#boat-tile-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.boat-tiles {
+    width: 28%;
+    height: 0;
+    padding-top: 28%;
+    background-color: red;
+    position: relative;
+}
+
+#fishing {
+    background-image: url("../media/stock-images/fishing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kayak {
+    background-image: url("../media/stock-images/kayak.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pontoon {
+    background-image: url("../media/stock-images/pontoon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.boat-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    transition: ease-in .5s;
+}
+
+.boat-tiles:hover .boat-overlay {
+    opacity: 1
+}
+
+.boat-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+.boat-tiles a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
 }
