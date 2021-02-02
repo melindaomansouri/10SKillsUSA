@@ -39,31 +39,54 @@ section {
     font-family: sans-serif;
 }
 
-#second-banner {
+.imageText-banner {
     position: relative;
-    color: gray;
-
+    color: white;
+    background-color: #CC6C72;
 }
 
-#second-banner > .second-banner-text > .text-wrapper {
-    width: 50%;
+.imageText-banner > .banner-text > .text-wrapper {
+    width: 40%;
     height: 500px;  
     border: 15px solid white;
     float: left;
+    padding: 25px;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #E7C739;
 }
 
 
-#second-banner > .second-banner-text > .text-wrapper > h2{
+.imageText-banner > .banner-text > .text-wrapper > h2{
     font-size: 2em;
+    
 }
 
-#second-banner > .second-banner-image {
-    background-image: url("../media/pier68-boats-cropped.jpg");
-    width: 50%;
+.imageText-banner > .banner-text > .text-wrapper > .text-description {
+    font-size: 1.5em;
+}
+
+.imageText-banner > .second-banner-image {
+    background-image: url("../media/sign.jpg");
+    width: 60%;
     height:500px;
     border: 15px solid white;
     float: right;
     box-sizing: border-box;
+}
+
+.third-banner > .imageText-banner > .second-banner-image {
+    float: left;
+    border-top: 0px;
+    background-image: url("../media/pier68-boats-cropped.jpg");
+}
+
+.third-banner > .imageText-banner > .banner-text > .text-wrapper {
+    float: right;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.second-banner > .imageText-banner > .banner-text > .text-wrapper {
+    border-right: 0px;
 }
