@@ -96,6 +96,13 @@ h2 {
     border-right: 0px;
 }
 
+#third-banner {
+    background-image: url("../media/dock_boat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
