@@ -105,9 +105,14 @@ h2 {
 
 .footer {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.footer-logo-wrapper {
+    width: 300px
+}
 .footer-logo {
-    width: 300px;
+    width: 100%;
 }
