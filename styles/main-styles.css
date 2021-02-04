@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 section {
@@ -36,7 +37,6 @@ section {
     margin: 100px;
     padding: 30px;
     font-size: 2em;
-    font-family: sans-serif;
 }
 
 .imageText-banner {
@@ -52,11 +52,13 @@ section {
     float: left;
     padding: 25px;
     box-sizing: border-box;
-    font-family: sans-serif;
     color: #E7C739;
 }
 
 
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
 .imageText-banner > .banner-text > .text-wrapper > h2{
     font-size: 2em;
     
