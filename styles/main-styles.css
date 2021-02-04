@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+section {
+    height: 500px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.spacer {
+    height: 100px;
+    width: 100%;
+}
+
+#first-banner {
+    height: 400px;
+}
+
+#videoBackground {
+    z-index: -5;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: opacity(75%);
+
+}
+
+.video-overlay {
+    z-index: 1;
+    background-color: white;
+    color: gray;
+    position: relative;
+    top: -450px;
+    width: 25%;
+    margin: 100px;
+    padding: 30px;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.imageText-banner {
+    position: relative;
+    color: white;
+    background-color: #CC6C72;
+}
+
+.imageText-banner > .banner-text > .text-wrapper {
+    width: 40%;
+    height: 500px;  
+    border: 15px solid white;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #E7C739;
+}
+
+
+.imageText-banner > .banner-text > .text-wrapper > h2{
+    font-size: 2em;
+    
+}
+
+.imageText-banner > .banner-text > .text-wrapper > .text-description {
+    font-size: 1.5em;
+}
+
+.imageText-banner > .second-banner-image {
+    background-image: url("../media/sign.jpg");
+    width: 60%;
+    height:500px;
+    border: 15px solid white;
+    float: right;
+    box-sizing: border-box;
+}
+
+.third-banner > .imageText-banner > .second-banner-image {
+    float: left;
+    border-top: 0px;
+    background-image: url("../media/pier68-boats-cropped.jpg");
+}
+
+.third-banner > .imageText-banner > .banner-text > .text-wrapper {
+    float: right;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.second-banner > .imageText-banner > .banner-text > .text-wrapper {
+    border-right: 0px;
+}

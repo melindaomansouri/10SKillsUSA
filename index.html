@@ -1,35 +1,352 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>SkillsUSA temp title</title>
-        <link href="styles/main-styles.css">
-        <link href="styles/menu-styles.css">
-    </head>
-    <body>
-        <header>
 
-        </header>
+<head>
+    <title>SkillsUSA temp title</title>
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/menu-styles.css">
+    <link rel="stylesheet" href="styles/footer-styles.css">
+    <link rel="stylesheet" href="styles/tile-styles.css">
+    <link rel="stylesheet" href="styles/pricing-styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/76d8f4296c.js" crossorigin="anonymous"></script>
+</head>
 
-        <main>
-            <section id="first-banner">
+<body>
+    <script src="js/pricing.js"></script>
+    <header>
+        <div id="logo-wrapper">
+            <a href=index.html><img src="media/signLogo.png" width="300px" height="75px"></a>
+        </div>
+        <nav>
+            <div id="pontoon-wrapper">
+                <a href="">Boats</a>
+                <div id="sub-pontoon-wrapper">
+                    <div id="sub-image-wrapper">
+                        <div class="image-text-wrapper">
+                            <img src="media/22deck_boat2.jpg" height="200px" width="200px">
+                            <div class="sub-text">
+                                Pontoon Boats
+                            </div>
+                        </div>
 
+                        <div class="image-text-wrapper">
+                            <img src="media/kayak2.jpg" height="200px" width="200px">
+                            <div class="sub-text">
+                                Kayaks
+                            </div>
+                        </div>
+
+                        <div class="image-text-wrapper">
+                            <img src="media/fishing.jpg" height="200px" width="200px">
+                            <div class="sub-text">
+                                Fishing Boats
+                            </div>
+                        </div>
+
+                        <div class="image-text-wrapper">
+                            <img src="media/dock_boat.jpg" height="200px" width="200px">
+                            <div class="sub-text">
+                                Other Boats
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="sub-nav-wrapper">
+
+                    </div>
+                </div>
+            </div>
+            <div id="fishing-wrapper">
+                <a href="">Gallery</a>
+            </div>
+
+            <div id="kayak-wrapper">
+                <a href="">Kayak Rentals</a>
+            </div>
+
+        </nav>
+
+        <div id="time-wrapper">
+            Open 9pm to 5pm <br />
+            Weather permitting!
+        </div>
+    </header>
+
+    <div class="spacer">
+
+    </div>
+    <main>
+        <section id="first-banner">
+            <video autoplay muted loop id="videoBackground">
+                <source src="media/autoplay.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay">Pier 68 boat rentals
+                <div class="video-overlay-description">Here, you will find the best prices for fishing boats, pontoon
+                    boats, and kayak rentals in the Keys!</div>
+            </div>
+        </section>
+        <section class="second-banner">
+            <section class="imageText-banner">
+                <div class="banner-text">
+                    <div class="text-wrapper">
+                        <h2>
+                            Thank you for checking out Pier 68 Boat Rentals.
+                        </h2>
+                        <div class="text-description">
+                            We specialize in center console, pontoon boat, deck boat and fishing boat rentals. Our
+                            family has been renting boats since 1986. We offer daily rates as well as multi day
+                            discounts and weekly rates. We also have reasonable monthly rates during the winter for our
+                            snowbird friends.
+                        </div>
+                    </div>
+                </div>
+                <div class="second-banner-image">
+
+                </div>
             </section>
+        </section>
+        <section class="third-banner">
+            <section class="imageText-banner">
+                <div class="banner-text">
+                    <div class="text-wrapper">
+                        <div class="text-description">
+                            At Pier 68 all of our boats are equipped with a fuel efficient Yamaha four stroke outboard
+                            motor. Each boat also has a ladder for getting in and out of the water. For navigation every
+                            Pier 68 rental boat is equipped with a color gps/chartplotter. Our deck boats and pontoon
+                            boats feature a bimini top for maximum shade and our fishing boats have a t-top for 360'
+                            fishibility. Most fishing boats are also equipped with a live bait well. Rod/reel rentals as
+                            well as frozen bait is available.
+                        </div>
+                    </div>
+                </div>
+                <div class="second-banner-image">
 
-            <section id="second-banner">
-                
+                </div>
             </section>
+        </section>
+        <section id="boat-wrapper">
+            <h2>Check Out Our Boats!</h2>
+            <div id="boat-tile-wrapper">
+                <div class="boat-tiles" id="pontoon">
+                    <div class="boat-overlay">
+                        <div class="boat-text">
+                            Check Out Our Pontoon Boats!
+                        </div>
+                    </div>
+                    <a href=""></a>
+                    <i class="fas fa-anchor"></i>
+                </div>
+                <div class="boat-tiles" id="fishing">
+                    <div class="boat-overlay">
+                        <div class="boat-text">
+                            Check Out Our Fishing Boats!
+                        </div>
+                    </div>
+                    <a href=""></a>
+                    <i class="fas fa-fish"></i>
+                </div>
+                <div class="boat-tiles" id="kayak">
+                    <div class="boat-overlay">
+                        <div class="boat-text">
+                            Check Out Our Kayaks!
+                        </div>
+                    </div>
+                    <a href=""></a>
+                    <i class="fas fa-ship"></i>
 
-            <section id="social-wrapper">
+                </div>
+            </div>
+        </section>
 
-            </section>
+        <section id="third-banner">
+            3
+        </section>
 
-            <section id="third-banner">
-                
-            </section>
-        </main>
+        <section id="pricing-tables">
+            <div id="top-button-wrapper">
+                <button onclick="table(1)">Center Consoles</button>
+                <button onclick="table(2)">Pontoons/Decks</button>
+                <button onclick="table(3)">Kayaks</button>
+            </div>
+            <div class="table-wrapper" id="consoles">
+                <div class="table">
+                    <div class="heading">
+                        Center Consoles
+                    </div>
+                    <ul>
+                        <li class="row">Full Day</li>
+                        <li>2-3 Days</li>
+                        <li class="row">4-6 Days</li>
+                        <li>Week</li>
+                    </ul>
+                    <div class="button-wrapper">
 
-        <footer>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        19' Console
+                    </div>
+                    <ul>
+                        <li class="row">$199</li>
+                        <li>$179/day</li>
+                        <li class="row">$159/day</li>
+                        <li>$975</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        21' Console
+                    </div>
+                    <ul>
+                        <li class="row">$249</li>
+                        <li>$225/day</li>
+                        <li class="row">$199/day</li>
+                        <li>$1200</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        23' Console
+                    </div>
+                    <ul>
+                        <li class="row">$299</li>
+                        <li>$275/day</li>
+                        <li class="row">$249/day</li>
+                        <li>$1500</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        </footer>
-    </body>
+            <div class="table-wrapper" id="deck">
+                <div class="table">
+                    <div class="heading">
+                        Decks/Pontoons
+                    </div>
+                    <ul>
+                        <li class="row">Full Day</li>
+                        <li>2-3 Days</li>
+                        <li class="row">4-6 Days</li>
+                        <li>Week</li>
+                    </ul>
+                    <div class="button-wrapper">
+
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        20'-22' Deck
+                    </div>
+                    <ul>
+                        <li class="row">$249</li>
+                        <li>$225/day</li>
+                        <li class="row">$199/day</li>
+                        <li>$1200</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        23'-24' Deck
+                    </div>
+                    <ul>
+                        <li class="row">$299</li>
+                        <li>$275/day</li>
+                        <li class="row">$249/day</li>
+                        <li>$1500</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        22' Pontoon
+                    </div>
+                    <ul>
+                        <li class="row">$249</li>
+                        <li>$225/day</li>
+                        <li class="row">$199/day</li>
+                        <li>$1200</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-wrapper" id="kayak-table">
+                <div class="table">
+                    <div class="heading">
+                        Kayaks
+                    </div>
+                    <ul>
+                        <li class="row">Per Week</li>
+                        <li>Per Day</li>
+                    </ul>
+                    <div class="button-wrapper">
+
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        Single Kayak
+                    </div>
+                    <ul>
+                        <li class="row">$29/day</li>
+                        <li>$89/week</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        Double Kayak
+                    </div>
+                    <ul>
+                        <li class="row">$39/day</li>
+                        <li>$99/week</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        footer
+    </footer>
+</body>
+
 </html>
