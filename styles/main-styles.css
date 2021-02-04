@@ -117,6 +117,14 @@ h2 {
     border: 12px solid #FF1536;
     font-size: 1.4em;
 }
+
+#third-banner {
+    background-image: url("../media/dock_boat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .footer {
     display: flex;
     justify-content: center;
