@@ -1,19 +1,25 @@
 #pricing-tables {
-    height: 850px;
+    height: 1000px;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #E7C739;
+    border: 12px solid white;
+    box-sizing: border-box;
     margin-top: 0;
+
 }
 
 .table-wrapper {
+    box-sizing: border-box;
     display: flex;
-    width: 80%;
+    width: 100%;
     height: 90%;
     font-size: 2em;
     color: black;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
+    
 }
 
 ul {
@@ -23,16 +29,16 @@ ul {
 }
 
 li {
-    padding: 30px 50px 30px 50px;
+    padding: 30px 10% 30px 10%;
     margin: 0;
     list-style-type: none;
     width: 100%;
-    background-color: white;
+    background-color: aliceblue;
     text-align: center;
 }
 
 .heading {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 30px;
     text-align: center;
     width: 100%;
@@ -41,10 +47,10 @@ li {
 .button-wrapper {
     height: 200px;
     width: 100%;
-    background-color: lightcyan;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 10% 0px 10%;
     position: relative;
     text-align: center;
+    background-color:#FF1536;
 
 }
 
@@ -57,25 +63,29 @@ li {
 }
 
 .row {
-    background-color:lightslategray;
+    background-color:#FF1536;
 }
 
 button {
-    background-color: salmon;
+    background-color: #FF1536;
+    color:#E7C739;
+    font-family: 'Didact Gothic', sans-serif;
     padding: 0;
     font-size: 1.5em;
     border: none;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 #top-button-wrapper {
-    width: 75%;
+    display: flex;
+    width: 100%;
     height: 100px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 30px
 }
 
 #deck {
