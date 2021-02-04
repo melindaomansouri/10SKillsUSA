@@ -3,7 +3,6 @@ header {
     width: 100%;
     background-color: white;
     display: flex;
-    font-family: sans-serif;
     position: fixed;
     z-index: 100;
 }
@@ -45,7 +44,7 @@ nav a {
 #sub-pontoon-wrapper {
     display: none;
     width: 100%;
-    height: 275px;
+    height: 300px;
     background-color: aliceblue;
     position: absolute;
     top: 100px;
@@ -56,6 +55,10 @@ nav a {
 .image-text-wrapper {
     padding: 30px;
     text-align: center;
+}
+
+.image-text-wrapper:hover {
+    animation: select-item .3s forwards;
 }
 .image-text-wrapper img {
     border-radius: 50%;
@@ -69,13 +72,27 @@ nav a {
 #pontoon-wrapper, #fishing-wrapper, #kayak-wrapper {
     width: auto;
     padding: 32px 30px 32px 30px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #pontoon-wrapper:hover #sub-pontoon-wrapper {
-    /* animation: slide-in .5 forwards; */
+    animation: slide-in 0.4s forwards;
+    z-index: -5;
+    display: relative;
     display: block;
 
 }
+
+@keyframes select-item {
+    0% {
+        filter: brightness(100%)
+    }
+
+    100% { 
+        filter: brightness(50%)
+    }
+}
+
 
 @keyframes slide-in {
     0% {
@@ -84,8 +101,8 @@ nav a {
     }
 
     100% { 
-        top: 125px;
-        opacity: 1;
+        top: 100px;
+        opacity: 2;
     }
 }
 
