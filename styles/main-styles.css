@@ -178,3 +178,10 @@ footer {
     font-size: 1.7em;
     color: white;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 70%;
+        width: 100%;
+    }
+}
