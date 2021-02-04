@@ -1,0 +1,87 @@
+#pricing-tables {
+    height: 850px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 0;
+}
+
+.table-wrapper {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    font-size: 2em;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    padding: 30px 50px 30px 50px;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.heading {
+    font-size: 1.5em;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.button-wrapper {
+    height: 200px;
+    width: 100%;
+    background-color: lightcyan;
+    padding: 0px 50px 0px 50px;
+    position: relative;
+    text-align: center;
+
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.row {
+    background-color:lightslategray;
+}
+
+button {
+    background-color: salmon;
+    padding: 0;
+    font-size: 1.5em;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#top-button-wrapper {
+    width: 75%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#deck {
+    display: none;
+}
+
+#kayak-table {
+    display: none;
+}
