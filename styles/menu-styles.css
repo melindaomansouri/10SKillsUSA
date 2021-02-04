@@ -55,10 +55,12 @@ nav a {
 .image-text-wrapper {
     padding: 30px;
     text-align: center;
+    transition: ease-in .25s;
 }
 
 .image-text-wrapper:hover {
-    animation: select-item .3s forwards;
+    filter: brightness(50%);
+    
 }
 .image-text-wrapper img {
     border-radius: 50%;
