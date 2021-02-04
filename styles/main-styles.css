@@ -128,3 +128,9 @@ h2 {
     background-position: center;
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 70%;
+        width: 100%;
+    }
+}
