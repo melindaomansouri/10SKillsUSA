@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/menu-styles.css">
     <link rel="stylesheet" href="styles/footer-styles.css">
     <link rel="stylesheet" href="styles/tile-styles.css">
+    <link rel="stylesheet" href="styles/pricing-styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merriweather+Sans&display=swap" rel="stylesheet">
@@ -14,6 +15,7 @@
 </head>
 
 <body>
+    <script src="js/pricing.js"></script>
     <header>
         <div id="logo-wrapper">
             <a href=index.html><img src="media/signLogo.png" width="300px" height="75px"></a>
@@ -50,7 +52,7 @@
                                 Other Boats
                             </div>
                         </div>
-                       
+
                     </div>
                     <div id="sub-nav-wrapper">
 
@@ -111,7 +113,12 @@
                 <div class="banner-text">
                     <div class="text-wrapper">
                         <div class="text-description">
-                            At Pier 68 all of our boats are equipped with a fuel efficient Yamaha four stroke outboard motor. Each boat also has a ladder for getting in and out of the water. For navigation every Pier 68 rental boat is equipped with a color gps/chartplotter. Our deck boats and pontoon boats feature a bimini top for maximum shade and our fishing boats have a t-top for 360' fishibility. Most fishing boats are also equipped with a live bait well. Rod/reel rentals as well as frozen bait is available.
+                            At Pier 68 all of our boats are equipped with a fuel efficient Yamaha four stroke outboard
+                            motor. Each boat also has a ladder for getting in and out of the water. For navigation every
+                            Pier 68 rental boat is equipped with a color gps/chartplotter. Our deck boats and pontoon
+                            boats feature a bimini top for maximum shade and our fishing boats have a t-top for 360'
+                            fishibility. Most fishing boats are also equipped with a live bait well. Rod/reel rentals as
+                            well as frozen bait is available.
                         </div>
                     </div>
                 </div>
@@ -138,7 +145,7 @@
                             Check Out Our Fishing Boats!
                         </div>
                     </div>
-                    <a href=""></a>  
+                    <a href=""></a>
                     <i class="fas fa-fish"></i>
                 </div>
                 <div class="boat-tiles" id="kayak">
@@ -156,6 +163,186 @@
 
         <section id="third-banner">
     
+        </section>
+
+        <section id="pricing-tables">
+            <div id="top-button-wrapper">
+                <button onclick="table(1)">Center Consoles</button>
+                <button onclick="table(2)">Pontoons/Decks</button>
+                <button onclick="table(3)">Kayaks</button>
+            </div>
+            <div class="table-wrapper" id="consoles">
+                <div class="table">
+                    <div class="heading">
+                        Center Consoles
+                    </div>
+                    <ul>
+                        <li class="row">Full Day</li>
+                        <li>2-3 Days</li>
+                        <li class="row">4-6 Days</li>
+                        <li>Week</li>
+                    </ul>
+                    <div class="button-wrapper">
+
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        19' Console
+                    </div>
+                    <ul>
+                        <li class="row">$199</li>
+                        <li>$179/day</li>
+                        <li class="row">$159/day</li>
+                        <li>$975</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        21' Console
+                    </div>
+                    <ul>
+                        <li class="row">$249</li>
+                        <li>$225/day</li>
+                        <li class="row">$199/day</li>
+                        <li>$1200</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        23' Console
+                    </div>
+                    <ul>
+                        <li class="row">$299</li>
+                        <li>$275/day</li>
+                        <li class="row">$249/day</li>
+                        <li>$1500</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-wrapper" id="deck">
+                <div class="table">
+                    <div class="heading">
+                        Decks/Pontoons
+                    </div>
+                    <ul>
+                        <li class="row">Full Day</li>
+                        <li>2-3 Days</li>
+                        <li class="row">4-6 Days</li>
+                        <li>Week</li>
+                    </ul>
+                    <div class="button-wrapper">
+
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        20'-22' Deck
+                    </div>
+                    <ul>
+                        <li class="row">$249</li>
+                        <li>$225/day</li>
+                        <li class="row">$199/day</li>
+                        <li>$1200</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        23'-24' Deck
+                    </div>
+                    <ul>
+                        <li class="row">$299</li>
+                        <li>$275/day</li>
+                        <li class="row">$249/day</li>
+                        <li>$1500</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        22' Pontoon
+                    </div>
+                    <ul>
+                        <li class="row">$249</li>
+                        <li>$225/day</li>
+                        <li class="row">$199/day</li>
+                        <li>$1200</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-wrapper" id="kayak-table">
+                <div class="table">
+                    <div class="heading">
+                        Kayaks
+                    </div>
+                    <ul>
+                        <li class="row">Per Week</li>
+                        <li>Per Day</li>
+                    </ul>
+                    <div class="button-wrapper">
+
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        Single Kayak
+                    </div>
+                    <ul>
+                        <li class="row">$29/day</li>
+                        <li>$89/week</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="heading">
+                        Double Kayak
+                    </div>
+                    <ul>
+                        <li class="row">$39/day</li>
+                        <li>$99/week</li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <div class="btn">
+                            Reserve Now!
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
